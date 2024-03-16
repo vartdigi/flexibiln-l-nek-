@@ -1,0 +1,39 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #e5e3de;
+  color: #2E2C08;
+}
+
+a {
+  color: #2E2C08;
+}
+
+img {
+  max-width: 100%;
+}
+
+p, h2 {
+  padding: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.container {
+  padding: 1em;
+  margin: 2em;
+  max-width: 50em;
+  background: white;
+}
+
+.article__text, 
+.article__image {
+  padding: 1em;
+}
+
+/* Zde je místo pro vaše styly.*/
